@@ -1,13 +1,11 @@
 #include <Arduino.h>
 
-// deklarasikan pin dalam variabel
-
+// mendeklarasikan variabel pin yang digunakan
 int echoPin = D3;
 int trgPin = D5;
 int LEDPin = D7;
 
 // deklarasikan variabel untuk menghitung jarak
-
 long duration;
 int distance;
 
@@ -36,7 +34,7 @@ void loop()
   Serial.println(distance);
   Serial.println(" cm");
 
-  // set kondisi untuk menghidupkan lampu LED
+  // set kondisi untuk menghidupkan lampu LED berdasarkan jarak
   if(distance <= 10)
   {
     digitalWrite(LEDPin,HIGH);
