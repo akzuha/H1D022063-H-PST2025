@@ -37,7 +37,7 @@ void setup(){
   // Membuat halaman web
   webpage += "<html><body>";
   webpage += "<h1>ESP8266 Web Control</h1>";
-  webpage += "<h2>Muhamad Galih (H1D022052)</h2>";
+  webpage += "<h2>Achmad Aulia Difiputra (H1D022063)</h2>";
   webpage += "<p>LED 1</p>";
   webpage += "<p><a href= \"LED1ON\"\"><button>LED ON</button></a><a href= \"LED1OFF\"\"><button>LED OFF</button></a></p><br>";
   webpage += "<p>LED 2</p>";
