@@ -39,11 +39,11 @@ void setup(){
   webpage += "<h1>ESP8266 Web Control</h1>";
   webpage += "<h2>Achmad Aulia Difiputra (H1D022063)</h2>";
   webpage += "<p>LED 1</p>";
-  webpage += "<p><a href= \"LED1ON\"\"><button>LED ON</button></a><a href= \"LED1OFF\"\"><button>LED OFF</button></a></p><br>";
+  webpage += "<p><a href= \"LED1ON\"><button>LED ON</button></a><a href= \"LED1OFF\"><button>LED OFF</button></a></p><br>";
   webpage += "<p>LED 2</p>";
-  webpage += "<p><a href= \"LED2ON\"\"><button>LED ON</button></a><a href= \"LED2OFF\"\"><button>LED OFF</button></a></p><br>";
+  webpage += "<p><a href= \"LED2ON\"><button>LED ON</button></a><a href= \"LED2OFF\"><button>LED OFF</button></a></p><br>";
   webpage += "<p>LED 3</p>";
-  webpage += "<p><a href= \"LED3ON\"\"><button>LED ON</button></a><a href= \"LED3OFF\"\"><button>LED OFF</button></a></p><br>";
+  webpage += "<p><a href= \"LED3ON\"><button>LED ON</button></a><a href= \"LED3OFF\"><button>LED OFF</button></a></p><br>";
 
   // Membuat tampilan halaman web
 
